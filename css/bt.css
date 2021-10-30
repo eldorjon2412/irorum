@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box{
+    padding: 56px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.box_left{
+    width: 36px;
+    height: 108px;
+    background: blue;
+   margin-left: -120px;
+
+}
+.box_left p{
+    color: white;
+    transform: rotateX(90px);
+}

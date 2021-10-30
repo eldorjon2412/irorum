@@ -1,0 +1,24 @@
+.container header .text{
+    display: flex;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:black ;
+}
+header .text h3{
+    margin-left: 50px;
+}
+header .text{
+    color: white;
+    cursor: pointer;
+}
+header h1{ 
+    color: white;
+
+    align-items: center;
+    margin-left: 40%;
+}
+header .text{
+    margin-left: 30%;
+}

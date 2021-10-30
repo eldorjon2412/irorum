@@ -1,0 +1,86 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  background-image: url(./photo_2018-04-13_02-26-41.jpg);
+  background-repeat: no-repeat;
+  color: wheat;
+}
+.box{
+  display: flex;
+}
+.box h3{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.bars{
+  position: absolute;
+  font-size: 30px;
+  top:45px;
+  left: 700px;
+  display: none;
+  cursor: pointer;
+}
+.close{
+  position: absolute;
+  font-size: 30px;
+  margin-top: 45px;
+  margin-left: 700px;
+  display: none;
+  cursor: pointer;
+}
+@media(max-width:700px){
+  .bars{
+      position: absolute;
+      display: block;
+      left: 520px;
+      top: 50px;
+  }
+  .close{
+      position: absolute;
+       display: none;
+      margin-left: 520px;
+      margin-top: 50px;
+  }
+  .box{
+      position: absolute;
+      top: 50px;
+      flex-direction: column;
+      width: 500px;
+      height: 400px;
+      background-color: rgba(255, 0, 0, 0.335);
+      transform: translateX(-600px);
+      transition: 1s;
+  }
+  .box h3{
+      margin-top: 20px;
+      color: white;
+      cursor: pointer;
+      font-size: 40px;
+  }
+  .click{
+      transform: translateY(0);
+  }
+}
+@media(min-width:700px){
+  .bars{
+      display: none;
+      background-image: linear-gradient(200px red black yellow blue);
+    }
+  .close{
+      display: none;
+  }
+  /* .box{
+    border-radius: 50px;
+    background-color: black;
+  } 
+  } */
+
+  

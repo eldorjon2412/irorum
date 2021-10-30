@@ -1,0 +1,28 @@
+@media (max-width: 1040px){
+    header a{
+        font-size: 12px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 900px){
+    header .text{
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+
+    main .main_text .btns{
+        flex-direction: column;
+        
+    }
+    main .main_text .btns button{
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        width: 201px;
+        height: 33px;
+        margin-top: 20px;    
+    }
+} 

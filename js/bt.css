@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box{
+    padding: 56px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box_left{
+    width: 36px;
+    height: 108px;
+    background: blue;
+   margin-left: -120px;
+   display: flex;
+   justify-content: space-around;
+}
+.box_left p{
+    color: white;
+    transform: rotateX(90px);
+}
+.box_ .google{
+    padding: 30px 0;
+}
+.box_ h5{
+    padding: 32px 0;
+}
+.box_img img{
+    /* padding: 20px 0; */
+width: 60%;
+height: 564px;
+}
+.box_img .box_img_{
+    padding: 15px 0;
+}
+.box_{
+    width: 48%;
+    height: auto;
+}
+.img_display{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Img va box */
+.img_a_box{
+    display: flex;
+    justify-content: space-around;
+}
+.img_and_box p{
+    padding: 42px 0;
+}
+.img_and_box h1{
+    padding: 21px 0;
+}
+/* Img va box tugadi */
+
+/* works */
+
+main .word h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+/* works */
+
+/* boxs */
+.boxs{
+    display: flex;
+    justify-content: space-around;
+
+}
+.boxs .box1{
+    width: 25%;
+    height: 327px;
+    border: 1px solid black;
+}
+.boxs .box1 img{
+    padding: 41px 131px;
+    align-items: center;
+    justify-content: center;
+}
+.boxs .box1 h5{
+    text-align: center;
+    justify-content: center;
+}
+.boxs .box1 h6{
+    padding: 30px 0;
+    text-align: center;
+    justify-content: center;
+}
+.boxs .box2{
+    width: 25%;
+    height: 327px;
+    border: 1px solid black;
+
+}
+.boxs .box2 h5{
+    text-align: center;
+    justify-content: center;
+}
+.boxs .box2 h6{
+    padding: 30px 0;
+    text-align: center;
+    justify-content: center;
+}
+.boxs .box2 img{
+    padding: 41px 131px;
+    align-items: center;
+    justify-content: center;
+}
+.boxs .box3{
+    width: 25%;
+    height: 327px;
+    border: 1px solid black;
+
+}
+.boxs .box3 h5{
+    text-align: center;
+    justify-content: center;
+}
+.boxs .box3 h6{
+    padding: 30px 0;
+    text-align: center;
+    justify-content: center;
+}
+.boxs .box3 img{
+    padding: 41px 131px;
+    align-items: center;
+    justify-content: center;
+}
+.boxs .img_class{
+    cursor: pointer;
+    padding: 160px 0;
+    width: 72px;
+    height: 72px;
+}
+/* boxs tugadi */
+/* box backgrouund */
+.box_background{
+    padding: 29px 0;
+    width: 100%;
+    height: 371px;
+    background: #31C5A1;
+}
+.box_background h1{
+    padding: 100px 0  75px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.box_background img{
+   justify-content: center;
+   align-items: center;
+}
+.box_background .figma{
+    margin-left: 40%;
+}
+/* footer */
+.footer{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-around;
+}

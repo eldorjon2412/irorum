@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container_img{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .box_img{
+            width: 48%;
+            height: 400px;
+            position: relative;
+        }
+        .box_img img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .box_img .box_text{
+            position: absolute;
+            left: 30%;
+            top: 30%;
+            color: #fff;
+        }
+
+        @media (max-width: 700px){
+            .container_img{
+                flex-direction: column;
+            }
+            .box_img{
+                margin-top: 20px;
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container_img">
+        <div class="box_img">
+            <img src="./figma/Rectangle (9).png" alt="">
+            <div class="box_text">
+                <h1>salom</h1>
+                <p>lorem</p>
+                <img src="./figma/Vector@2x.png" alt="">
+            </div>
+        </div>
+
+        <div class="box_img">
+            <img src="./figma/Rectangle (9).png" alt="">
+            <div class="box_text">
+                <h1>salom</h1>
+                <p>lorem</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

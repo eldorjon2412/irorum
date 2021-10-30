@@ -1,0 +1,8 @@
+@media (max-width:480px){
+    .img_a_box .img_and_box img{
+      margin-top: 20px;
+    }
+    .boxs{
+        flex-wrap: wrap;
+    }
+}
